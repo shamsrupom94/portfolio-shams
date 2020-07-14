@@ -26,7 +26,8 @@
 
 .header li a:hover,
 .header .menu-btn:hover {
-  background-color: #f4f4f4;
+  background-color: #6FBC59;
+  color: #fff;
 }
 
 .header .logo {
@@ -38,9 +39,10 @@
   line-height: normal;
 }
 .header .logo-name {
-  font-family: 'Agustina Regular';
+  font-family: 'Montserrat';
   font-weight: bold;
   padding: 0 10px;
+  color: #6FBC59;
 }
 
 /* menu */
