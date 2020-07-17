@@ -27,51 +27,63 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-    title: "What i do",
-    subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+    title: "About Me",
+    subTitle: "A Computer Science graduate working as a full-stack developer with a passion for learning about new and exciting technologies",
     skills: [
+        emoji("⚡ Specialist in MERN stack application for both web and android platform"),
         emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-        emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-        emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+        emoji("⚡ Integration of third party services such as Firebase/ Vimeo / GoogleAPIs etc. "),
+        emoji("⚡ Excellent communication skills and business problem solving skills ")
     ],
 
     /* Make Sure You include correct Font Awesome Classname to view your icon
     https://fontawesome.com/icons?d=gallery */
 
     softwareSkills: [
-
         {
-            skillName: "JavaScript",
-            fontAwesomeClassname: "fab fa-js"
-        },
-        {
-            skillName: "reactjs",
-            fontAwesomeClassname: "fab fa-react"
+            skillName: "ReactJs / Native",
+            fontAwesomeClassname: require("../src/assets/icons/react.png")
         },
         {
             skillName: "nodejs",
-            fontAwesomeClassname: "fab fa-node"
+            fontAwesomeClassname: require("../src/assets/icons/node.png")
         },
         {
-            skillName: "swift",
-            fontAwesomeClassname: "fab fa-swift"
+            skillName: "MongoDB",
+            fontAwesomeClassname: require("../src/assets/icons/mongo.png")
         },
         {
-            skillName: "npm",
-            fontAwesomeClassname: "fab fa-npm"
+            skillName: "JavaScript",
+            fontAwesomeClassname: require("../src/assets/icons/js.png")
         },
         {
-            skillName: "firebase",
-            fontAwesomeClassname: "fas fa-fire"
+            skillName: "Python",
+            fontAwesomeClassname: require("../src/assets/icons/python.png")
+        },
+        {
+            skillName: "Flask",
+            fontAwesomeClassname: require("../src/assets/icons/flask.png")
+        },
+        {
+            skillName: "Firebase",
+            fontAwesomeClassname: require("../src/assets/icons/firebase.png")
         },
         {
             skillName: "Android",
-            fontAwesomeClassname: "fab fa-android"
+            fontAwesomeClassname: require("../src/assets/icons/android.png")
         },
         {
-            skillName: "Flutter",
-            fontAwesomeClassname: "fab fa-dart"
-        }
+            skillName: "Redux",
+            fontAwesomeClassname: require("../src/assets/icons/redux.png")
+        },
+        {
+            skillName: "Redis",
+            fontAwesomeClassname: require("../src/assets/icons/redis.png")
+        },
+        {
+            skillName: "Postman",
+            fontAwesomeClassname: require("../src/assets/icons/postman.png")
+        },
     ]
 };
 

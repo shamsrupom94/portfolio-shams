@@ -2,22 +2,30 @@
   display: flex;
 }
 .skills-text-div {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .skills-main-div > * {
   flex: 1;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .skills-image-div > img {
+  /* margin-left: 50px; */
+  margin-top: 50px;
   max-width: 100%;
-  height: auto;
+  max-height: 500px;
+  border-radius: 25px;
 }
 
 .skills-heading {
-  font-size: 56px;
-  font-weight: 400;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.sub-heading {
+  font-size: 20px;
+  opacity: .6;
 }
 
 /* Media Query */
