@@ -4,9 +4,20 @@ import { bigProjects } from "../../portfolio";
 import { Fade } from "react-reveal";
 
 export default function StartupProject() {
-  function openProjectInNewWindow(url) {
-    var win = window.open(url, "_blank");
-    win.focus();
+  function openProjectInNewWindow(project) {
+    if (project === 1) {
+      let win = window.open("https://eduhive.com.bd", "_blank");
+      win.focus();
+    } else if (project === 2) {
+      let win = window.open("https://play.google.com/store/apps/details?id=com.techhive.eduhive", "_blank");
+      win.focus();
+    } else if (project === 3) {
+      let win = window.open("https://www.facebook.com/events/eduhivecombd/eduhive-scholars-2020/437352227156349/", "_blank");
+      win.focus();
+    } else {
+      let win = window.open("https://texthive.com.bd", "_blank");
+      win.focus();
+    }
   }
 
   return (
@@ -17,17 +28,17 @@ export default function StartupProject() {
           <p className="subTitle project-subtitle">{bigProjects.subtitle}</p>
           <div className="startup-projects-main">
             <div className="project-inline">
-              <div className="project-card" onClick={() => openProjectInNewWindow()}>
-                <img style={{marginTop: "50px", height: "90px", width: "350px"}} alt="no image" src={require("../../assets/icons/eduhive.png")}></img>
+              <div className="project-card" onClick={() => openProjectInNewWindow(1)}>
+                <img style={{ marginTop: "50px", height: "90px", width: "350px" }} alt="no image" src={require("../../assets/icons/eduhive.png")}></img>
               </div>
-              <div className="project-card" onClick={() => openProjectInNewWindow()}>
-                <img style={{marginTop: "18px", height: "75px", width: "250px"}} alt="no image" src={require("../../assets/icons/eduhive.png")}></img>
+              <div className="project-card" onClick={() => openProjectInNewWindow(2)}>
+                <img style={{ marginTop: "42px", height: "115px", width: "260px" }} alt="no image" src={require("../../assets/icons/eduhiveapp.png")}></img>
               </div>
-              <div className="project-card" onClick={() => openProjectInNewWindow()}>
-                <img style={{marginTop: "18px", height: "145px", width: "200px"}} alt="no image" src={require("../../assets/icons/scholars.png")}></img>
+              <div className="project-card" onClick={() => openProjectInNewWindow(3)}>
+                <img style={{ marginTop: "18px", height: "145px", width: "200px" }} alt="no image" src={require("../../assets/icons/scholars.png")}></img>
               </div>
-              <div className="project-card" onClick={() => openProjectInNewWindow()}>
-                <img style={{marginTop: "45px",height: "110px", width: "350px"}} alt="no image" src={require("../../assets/icons/texthive.png")}></img>
+              <div className="project-card" onClick={() => openProjectInNewWindow(4)}>
+                <img style={{ marginTop: "45px", height: "110px", width: "350px" }} alt="no image" src={require("../../assets/icons/texthive.png")}></img>
               </div>
             </div>
             {/* <div className="starup-project-image"></div> */}

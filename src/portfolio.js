@@ -6,8 +6,8 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
     /* Your Summary And Greeting Section */
-    username: "Shams Ibne Noor",
-    title: "Hi, I'm Shams",
+    username: "Shams's Portfolio",
+    title: "Hi, I'm Shams Ibne Noor",
     subTitle: emoji("A Full-stack Software Developer having an experience of building Web & Mobile applications with Reactjs / React Native / Nodejs / Python and some other cool languages and frameworks."),
     resumeLink: "https://drive.google.com/file/d/1iE7V9DLl3y3gSF6CK1hJghyTSWFQndWL/view?usp=sharing"
 };
@@ -16,18 +16,17 @@ const greeting = {
 
 const socialMediaLinks = {
 
-    github: "https://github.com/minhajul-islam",
-    linkedin: "https://www.linkedin.com/in/md-minhajul-islam-479890131/",
-    gmail: "minhajul.sust@gmail.com",
-    gitlab: "https://github.com/minhajul-islam",
-    facebook: "https://www.facebook.com/minhaj.ul.37"
+    github: "https://github.com/shamsrupom94",
+    linkedin: "https://www.linkedin.com/in/shams-ibne-noor-05aa9015a/",
+    gmail: "shams.rupom@gmail.com",
+    facebook: "https://www.facebook.com/shams.rupom"
     // Instagram and Twitter are also supported in the links!
 };
 
 // Your Skills Section
 
 const skillsSection = {
-    title: "About Me",
+    title: "My Skills",
     subTitle: "A Computer Science graduate working as a full-stack developer with a passion for learning about new and exciting technologies",
     skills: [
         emoji("⚡ Specialist in MERN stack application for both web and android platform"),
@@ -280,10 +279,10 @@ const podcastSection = {
 
 //Completed by minhajul
 const contactInfo = {
-    title: emoji("Contact Me ☎️"),
-    subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-    number: "+8801515272948",
-    email_address: "minhajul.sust@gmail.com"
+    title: emoji("Contact Me"),
+    subtitle: "Want to say hi? My Inbox is open for all.",
+    number: "+8801941083577",
+    email_address: "shams.rupom@gmail.com"
 };
 
 //Twitter Section
