@@ -3,6 +3,7 @@ import "./Contact.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {contactInfo} from "../../portfolio";
 import { Fade } from "react-reveal";
+import emoji from "react-easy-emoji";
 
 export default function Contact() {
     return (
@@ -10,20 +11,20 @@ export default function Contact() {
         <div className="main contact-margin-top" id="contact">
             <div className="contact-div-main">
                 <div className="contact-header">
-                    <h1 className="heading contact-title">{contactInfo.title}</h1>
+                    <h1 className="title">{contactInfo.title}</h1>
                     <p className="subTitle contact-subtitle">{contactInfo.subtitle}</p>
 
                     <div className="contact-text-div">
-                        <a className="contact-detail" href={"tel:" + contactInfo.number}>{contactInfo.number}</a>
+                        <a className="contact-detail" href={"tel:" + contactInfo.number}>{emoji(`📞 ${contactInfo.number}`)}</a>
                         <br/><br/>
                         <a className="contact-detail-email"
-                           href={"mailto:" + contactInfo.email_address}>{contactInfo.email_address}</a>
+                           href={"mailto:" + contactInfo.email_address}>{emoji(`📧 ${contactInfo.email_address}`)}</a>
                         <br/><br/>
                         <SocialMedia/>
                     </div>
                 </div>
                 <div className="contact-image-div">
-                    <img alt="Saad Working" src={require("../../assets/images/contactMail.png")}></img>
+                    <img alt="Saad Working" style={{marginTop: "20px"}} src={require("../../assets/images/contactMail.png")}></img>
                 </div>
             </div>
         </div>

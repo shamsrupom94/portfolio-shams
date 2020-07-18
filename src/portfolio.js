@@ -6,9 +6,9 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
     /* Your Summary And Greeting Section */
-    username: "Minhajul Islam",
-    title: "Hi all, I'm minhaj",
-    subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Mobile applications with React Native / Flutter / Native android and some other cool libraries and frameworks."),
+    username: "Shams's Portfolio",
+    title: "Hi, I'm Shams Ibne Noor",
+    subTitle: emoji("A Full-stack Software Developer having an experience of building Web & Mobile applications with Reactjs / React Native / Nodejs / Python and some other cool languages and frameworks."),
     resumeLink: "https://drive.google.com/file/d/1iE7V9DLl3y3gSF6CK1hJghyTSWFQndWL/view?usp=sharing"
 };
 
@@ -16,62 +16,73 @@ const greeting = {
 
 const socialMediaLinks = {
 
-    github: "https://github.com/minhajul-islam",
-    linkedin: "https://www.linkedin.com/in/md-minhajul-islam-479890131/",
-    gmail: "minhajul.sust@gmail.com",
-    gitlab: "https://github.com/minhajul-islam",
-    facebook: "https://www.facebook.com/minhaj.ul.37"
+    github: "https://github.com/shamsrupom94",
+    linkedin: "https://www.linkedin.com/in/shams-ibne-noor-05aa9015a/",
+    gmail: "shams.rupom@gmail.com",
+    facebook: "https://www.facebook.com/shams.rupom"
     // Instagram and Twitter are also supported in the links!
 };
 
 // Your Skills Section
 
 const skillsSection = {
-    title: "What i do",
-    subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+    title: "My Skills",
+    subTitle: "A Computer Science graduate working as a full-stack developer with a passion for learning about new and exciting technologies",
     skills: [
+        emoji("⚡ Specialist in MERN stack application for both web and android platform"),
         emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-        emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-        emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+        emoji("⚡ Integration of third party services such as Firebase/ Vimeo / GoogleAPIs etc. "),
+        emoji("⚡ Excellent communication skills and business problem solving skills ")
     ],
 
     /* Make Sure You include correct Font Awesome Classname to view your icon
     https://fontawesome.com/icons?d=gallery */
 
     softwareSkills: [
-
         {
-            skillName: "JavaScript",
-            fontAwesomeClassname: "fab fa-js"
-        },
-        {
-            skillName: "reactjs",
-            fontAwesomeClassname: "fab fa-react"
+            skillName: "ReactJs / Native",
+            fontAwesomeClassname: require("../src/assets/icons/react.png")
         },
         {
             skillName: "nodejs",
-            fontAwesomeClassname: "fab fa-node"
+            fontAwesomeClassname: require("../src/assets/icons/node.png")
         },
         {
-            skillName: "swift",
-            fontAwesomeClassname: "fab fa-swift"
+            skillName: "MongoDB",
+            fontAwesomeClassname: require("../src/assets/icons/mongo.png")
         },
         {
-            skillName: "npm",
-            fontAwesomeClassname: "fab fa-npm"
+            skillName: "JavaScript",
+            fontAwesomeClassname: require("../src/assets/icons/js.png")
         },
         {
-            skillName: "firebase",
-            fontAwesomeClassname: "fas fa-fire"
+            skillName: "Python",
+            fontAwesomeClassname: require("../src/assets/icons/python.png")
+        },
+        {
+            skillName: "Flask",
+            fontAwesomeClassname: require("../src/assets/icons/flask.png")
+        },
+        {
+            skillName: "Firebase",
+            fontAwesomeClassname: require("../src/assets/icons/firebase.png")
         },
         {
             skillName: "Android",
-            fontAwesomeClassname: "fab fa-android"
+            fontAwesomeClassname: require("../src/assets/icons/android.png")
         },
         {
-            skillName: "Flutter",
-            fontAwesomeClassname: "fab fa-dart"
-        }
+            skillName: "Redux",
+            fontAwesomeClassname: require("../src/assets/icons/redux.png")
+        },
+        {
+            skillName: "Redis",
+            fontAwesomeClassname: require("../src/assets/icons/redis.png")
+        },
+        {
+            skillName: "Postman",
+            fontAwesomeClassname: require("../src/assets/icons/postman.png")
+        },
     ]
 };
 
@@ -81,20 +92,20 @@ const techStack = {
     viewSkillBars: true, //Set it to true to show Proficiency Section
     experience: [
         {
-            Stack: "React Native",  //Insert stack or technology you have experience in
-            progressPercentage: "90%"  //Insert relative proficiency in percentage
+            Stack: "ReactJs & Native",  //Insert stack or technology you have experience in
+            progressPercentage: "80%"  //Insert relative proficiency in percentage
         },
         {
-            Stack: "Flutter",
-            progressPercentage: "70%"
+            Stack: "Nodejs",
+            progressPercentage: "75%"
         },
         {
-            Stack: "Android",
-            progressPercentage: "70%"
+            Stack: "Python / Flask",
+            progressPercentage: "72%"
         },
         {
             Stack: "Programming",
-            progressPercentage: "60%"
+            progressPercentage: "65%"
         }
     ]
 };
@@ -106,31 +117,28 @@ const workExperiences = {
     viewExperiences: true, //Set it to true to show workExperiences Section
     experience: [
         {
+            role: "SQA Intern",
+            company: "Binate Solutions Ltd.",
+            companylogo: require("./assets/icons/binate.png"),
+            date: "November 2018 – January 2019",
+            desc: "Worked as and Software Quality Assurance intern with responsibilities like Software Testing, Database Testing, DB Schema Documentation, Documenting Test-cases and Software Documentation.",
+            descBullets: [
+                "PostMan & Swagger.io for api testing",
+                "MongoDB compass for Database testing"
+            ]
+        },
+        {
             role: "Software Engineer",
-            company: "TechHive",
+            company: "Tech Hive Ltd.",
             companylogo: require("./assets/images/eduhive.png"),
-            date: "March 2020 – Present",
-            desc: "EduHive is Bangladesh's leading E-learning platform where students can choose from multiple options and take full courses of renowned coaching centers & teachers. Courses include interactive video lectures and online mock tests.",
-            // descBullets: [
-            //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-            //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-            // ]
-        },
-        {
-            role: "Software Engineer",
-            company: "TopUp",
-            companylogo: require("./assets/images/topup.jpg"),
-            date: "February 2019 – February 2020",
-            desc: "TopUp App more than recharge.A smooth Processing with some best feature, fast performance and instant recharge with cashback, safe and protected every card Transaction.A secure SSL end to end encryption system to protect your balance, So be tension free and enjoy recharge with a tap."
-        },
-        {
-            role: "Software Engineer",
-            company: "DakterBari",
-            companylogo: require("./assets/images/dakterbari.png"),
-            date: "October 2017 – January 2019",
-            desc: "DakterBari is health consultant app where patients can consult with doctor over the video call.Doctor can easily communicate with patients from ruler area ",
-
-        },
+            date: "April 2019 – July 2020",
+            desc: `Worked as a Full-stack (web & android) developer on "EduHive" and "TextHive" project. EduHive is a product of Tech Hive Ltd, which is one of the leading e-learning platform in Bangladesh. TextHive is a Bulk SMS service`,
+            descBullets: [
+                "Reactjs for front-end web development",
+                "Nodejs, MongoDB and Expressjs for back-end development",
+                "React Native for android app development"
+            ]
+        }
     ]
 };
 
@@ -139,7 +147,7 @@ To know how to get github key look at readme.md */
 //TODO
 const openSource = {
     githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-    githubUserName: "minhajul-islam", // Change to your github username to view your profile in Contact Section.
+    githubUserName: "shamsrupom94", // Change to your github username to view your profile in Contact Section.
     showGithubProfile: "false" // Set true or false to show Contact profile using Github, defaults to false
 };
 
@@ -148,27 +156,25 @@ const openSource = {
 
 const bigProjects = {
     title: "Big Projects",
-    subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+    subtitle: "Some large scale projects that I have contributed to",
     projects: [
 
         {
-            image: "https://scontent.fdac25-1.fna.fbcdn.net/v/t1.15752-9/102832574_951804175278998_5151259304822665302_n.png?_nc_cat=105&_nc_sid=b96e70&_nc_eui2=AeHqUrb0OSshVqJimmOL_wvxP49jF7-whOM_j2MXv7CE42Xn_OT57hbqCpDrtUxff1qq4i9edpUdY8Mo2J_8MFUq&_nc_ohc=YglbEZVzLcEAX9cfRUK&_nc_ht=scontent.fdac25-1.fna&oh=10c5b4da57be212135842998cd84cb8f&oe=5F090C66",
+            image: require("../src/assets/icons/eduhive.png"),
             link: "https://play.google.com/store/apps/details?id=com.mlipa.kwikpay&hl=ky"
         },
         {
-            image: "https://1.bp.blogspot.com/-otVqybk47-E/XhSZP711VcI/AAAAAAAACVE/Xuc0jHYLny8xnV0F_pOo03wSxGYRE-HegCLcBGAsYHQ/s640/eduhive%2Bscholarship.png",
+            image: require("../src/assets/icons/scholars.png"),
             link: "https://eduhive.com.bd/"
         },
         {
-            image: "https://topup.co/wp-content/uploads/2019/03/TopUp-Logo.jpg",
+            image: require("../src/assets/icons/eduhive.png"),
             link: "https://topup.co/"
         },
-
         {
-            image: "https://scontent.fdac25-1.fna.fbcdn.net/v/t1.15752-9/102740333_298230294691876_3427222830724499774_n.png?_nc_cat=100&_nc_sid=b96e70&_nc_eui2=AeH9EjT1LOALrRiAG8faqG5qGnoMKrenFAQaegwqt6cUBMICWB7IeYkvQSfyVaSUewGKb_jjO1XeY5DV5w9ObDdo&_nc_ohc=5YXQM3D-wIQAX888x4p&_nc_ht=scontent.fdac25-1.fna&oh=92e2bdf2613bd9a6784a125f45739350&oe=5F0A51F2",
-            link: "https://play.google.com/store/apps/details?id=com.equityapp"
-        },
-
+            image: require("../src/assets/icons/texthive.png"),
+            link: "https://topup.co/"
+        }
     ]
 };
 
@@ -273,10 +279,10 @@ const podcastSection = {
 
 //Completed by minhajul
 const contactInfo = {
-    title: emoji("Contact Me ☎️"),
-    subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-    number: "+8801515272948",
-    email_address: "minhajul.sust@gmail.com"
+    title: emoji("Contact Me"),
+    subtitle: "Want to say hi? My Inbox is open for all.",
+    number: "+8801941083577",
+    email_address: "shams.rupom@gmail.com"
 };
 
 //Twitter Section

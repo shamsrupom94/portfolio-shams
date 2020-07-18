@@ -28,14 +28,31 @@
 .project-card-description {
   color: rgb(88, 96, 105);
 }
-.saaya-health-div,
+.project-inline {
+  flex: 1;
+  display: flex;
+  text-align: center;
+}
+.project-card {
+  flex: 1;
+  cursor: pointer;
+  /* margin: 10px 10px 10px; */
+}
+.project-image {
+  height: 100px;
+  width: auto;
+}
+
+.saaya-health-div{ 
+  flex-direction: row
+}
 .nextu-div {
   cursor: pointer;
 }
 
 @media (max-width: 768px) {
-  .starup-project-image {
-    display: none;
+  .project-inline {
+    display: block;
   }
   .project-subtitle{
     font-size: 16px;
