@@ -71,18 +71,18 @@ const skillsSection = {
             skillName: "Android",
             fontAwesomeClassname: require("../src/assets/icons/android.png")
         },
-        {
-            skillName: "Redux",
-            fontAwesomeClassname: require("../src/assets/icons/redux.png")
-        },
-        {
-            skillName: "Redis",
-            fontAwesomeClassname: require("../src/assets/icons/redis.png")
-        },
-        {
-            skillName: "Postman",
-            fontAwesomeClassname: require("../src/assets/icons/postman.png")
-        },
+        // {
+        //     skillName: "Redux",
+        //     fontAwesomeClassname: require("../src/assets/icons/redux.png")
+        // },
+        // {
+        //     skillName: "Redis",
+        //     fontAwesomeClassname: require("../src/assets/icons/redis.png")
+        // },
+        // {
+        //     skillName: "Postman",
+        //     fontAwesomeClassname: require("../src/assets/icons/postman.png")
+        // },
     ]
 };
 
