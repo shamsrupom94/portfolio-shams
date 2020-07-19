@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio-shams/static/css/main.4057aee4.chunk.css",
-    "main.js": "/portfolio-shams/static/js/main.63325251.chunk.js",
-    "main.js.map": "/portfolio-shams/static/js/main.63325251.chunk.js.map",
+    "main.js": "/portfolio-shams/static/js/main.5e2e6173.chunk.js",
+    "main.js.map": "/portfolio-shams/static/js/main.5e2e6173.chunk.js.map",
     "runtime-main.js": "/portfolio-shams/static/js/runtime-main.2ee9d49f.js",
     "runtime-main.js.map": "/portfolio-shams/static/js/runtime-main.2ee9d49f.js.map",
-    "static/js/2.46f1e037.chunk.js": "/portfolio-shams/static/js/2.46f1e037.chunk.js",
-    "static/js/2.46f1e037.chunk.js.map": "/portfolio-shams/static/js/2.46f1e037.chunk.js.map",
+    "static/js/2.2a329b05.chunk.js": "/portfolio-shams/static/js/2.2a329b05.chunk.js",
+    "static/js/2.2a329b05.chunk.js.map": "/portfolio-shams/static/js/2.2a329b05.chunk.js.map",
     "index.html": "/portfolio-shams/index.html",
-    "precache-manifest.1cd0572b9d10db671bcb6fcc9b1c3a48.js": "/portfolio-shams/precache-manifest.1cd0572b9d10db671bcb6fcc9b1c3a48.js",
+    "precache-manifest.9384c9b562a9a773d8a3c1ec3f9b518f.js": "/portfolio-shams/precache-manifest.9384c9b562a9a773d8a3c1ec3f9b518f.js",
     "service-worker.js": "/portfolio-shams/service-worker.js",
     "static/css/main.4057aee4.chunk.css.map": "/portfolio-shams/static/css/main.4057aee4.chunk.css.map",
     "static/media/index.css": "/portfolio-shams/static/media/Montserrat-Regular.ee653992.ttf",
@@ -21,17 +21,15 @@
     "static/media/ill_a.svg": "/portfolio-shams/static/media/ill_a.18837140.svg",
     "static/media/logo.svg": "/portfolio-shams/static/media/logo.25bf045c.svg",
     "static/media/mypic.png": "/portfolio-shams/static/media/mypic.ce869f51.png",
-    "static/media/postman.png": "/portfolio-shams/static/media/postman.c32ad3d9.png",
     "static/media/python.png": "/portfolio-shams/static/media/python.2c04a4f7.png",
-    "static/media/redux.png": "/portfolio-shams/static/media/redux.8251fe76.png",
     "static/media/scholars.png": "/portfolio-shams/static/media/scholars.5e20eb5b.png",
     "static/media/TalkCard.css": "/portfolio-shams/static/media/talksCardBack.0288c5ec.svg",
     "static/media/texthive.png": "/portfolio-shams/static/media/texthive.c206ef65.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2ee9d49f.js",
-    "static/js/2.46f1e037.chunk.js",
+    "static/js/2.2a329b05.chunk.js",
     "static/css/main.4057aee4.chunk.css",
-    "static/js/main.63325251.chunk.js"
+    "static/js/main.5e2e6173.chunk.js"
   ]
 }
