@@ -9,7 +9,7 @@ const greeting = {
     username: "Shams's Portfolio",
     title: "Hi, I'm Shams Ibne Noor",
     subTitle: emoji("A Full-stack Software Developer having an experience of building Web & Mobile applications with Reactjs / React Native / Nodejs / Python and some other cool languages and frameworks."),
-    resumeLink: "https://drive.google.com/file/d/1iE7V9DLl3y3gSF6CK1hJghyTSWFQndWL/view?usp=sharing"
+    resumeLink: "https://drive.google.com/file/d/1KXbZPbuOE7p_TLZ4Bl5lHygBOoEO0HIc/view?usp=sharing"
 };
 
 // Your Social Media Link by minhajul
