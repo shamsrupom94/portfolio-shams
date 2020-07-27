@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio-shams/static/css/main.4057aee4.chunk.css",
-    "main.js": "/portfolio-shams/static/js/main.7b5cac58.chunk.js",
-    "main.js.map": "/portfolio-shams/static/js/main.7b5cac58.chunk.js.map",
+    "main.js": "/portfolio-shams/static/js/main.44b833dc.chunk.js",
+    "main.js.map": "/portfolio-shams/static/js/main.44b833dc.chunk.js.map",
     "runtime-main.js": "/portfolio-shams/static/js/runtime-main.2ee9d49f.js",
     "runtime-main.js.map": "/portfolio-shams/static/js/runtime-main.2ee9d49f.js.map",
     "static/js/2.2a329b05.chunk.js": "/portfolio-shams/static/js/2.2a329b05.chunk.js",
     "static/js/2.2a329b05.chunk.js.map": "/portfolio-shams/static/js/2.2a329b05.chunk.js.map",
     "index.html": "/portfolio-shams/index.html",
-    "precache-manifest.d36e6d5d14b614b4befd1cd10c933eca.js": "/portfolio-shams/precache-manifest.d36e6d5d14b614b4befd1cd10c933eca.js",
+    "precache-manifest.ebb965f1b1f8ff3c4cf670ab5d8beaea.js": "/portfolio-shams/precache-manifest.ebb965f1b1f8ff3c4cf670ab5d8beaea.js",
     "service-worker.js": "/portfolio-shams/service-worker.js",
     "static/css/main.4057aee4.chunk.css.map": "/portfolio-shams/static/css/main.4057aee4.chunk.css.map",
     "static/media/index.css": "/portfolio-shams/static/media/Montserrat-Regular.ee653992.ttf",
@@ -16,12 +16,12 @@
     "static/media/contactMail.png": "/portfolio-shams/static/media/contactMail.347cb388.png",
     "static/media/eduhive.png": "/portfolio-shams/static/media/eduhive.3c769c9a.png",
     "static/media/eduhiveapp.png": "/portfolio-shams/static/media/eduhiveapp.2e7857cf.png",
-    "static/media/firebase.png": "/portfolio-shams/static/media/firebase.1da029b3.png",
     "static/media/flask.png": "/portfolio-shams/static/media/flask.297a5567.png",
     "static/media/ill_a.svg": "/portfolio-shams/static/media/ill_a.18837140.svg",
     "static/media/logo.svg": "/portfolio-shams/static/media/logo.25bf045c.svg",
     "static/media/mypic.png": "/portfolio-shams/static/media/mypic.ce869f51.png",
     "static/media/python.png": "/portfolio-shams/static/media/python.2c04a4f7.png",
+    "static/media/redux.png": "/portfolio-shams/static/media/redux.8251fe76.png",
     "static/media/scholars.png": "/portfolio-shams/static/media/scholars.5e20eb5b.png",
     "static/media/TalkCard.css": "/portfolio-shams/static/media/talksCardBack.0288c5ec.svg",
     "static/media/texthive.png": "/portfolio-shams/static/media/texthive.c206ef65.png"
@@ -30,6 +30,6 @@
     "static/js/runtime-main.2ee9d49f.js",
     "static/js/2.2a329b05.chunk.js",
     "static/css/main.4057aee4.chunk.css",
-    "static/js/main.7b5cac58.chunk.js"
+    "static/js/main.44b833dc.chunk.js"
   ]
 }
