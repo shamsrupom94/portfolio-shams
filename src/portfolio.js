@@ -7,9 +7,9 @@ import emoji from "react-easy-emoji";
 const greeting = {
     /* Your Summary And Greeting Section */
     username: "Shams's Portfolio",
-    title: "Hi, I'm Shams Ibne Noor",
+    title: "Hi, I'm Shams-Ibne-Noor",
     subTitle: emoji("A Full-stack Software Developer having an experience of building Web & Mobile applications with Reactjs / React Native / Nodejs / Python and some other cool languages and frameworks."),
-    resumeLink: "https://drive.google.com/file/d/1KXbZPbuOE7p_TLZ4Bl5lHygBOoEO0HIc/view?usp=sharing"
+    resumeLink: "https://drive.google.com/file/d/12PBBaRx7EKfm8BJS2xbn6wE1bEzD8-a_/view?usp=sharing"
 };
 
 // Your Social Media Link by minhajul
@@ -44,6 +44,10 @@ const skillsSection = {
             fontAwesomeClassname: require("../src/assets/icons/react.png")
         },
         {
+            skillName: "Redux",
+            fontAwesomeClassname: require("../src/assets/icons/redux.png")
+        },
+        {
             skillName: "nodejs",
             fontAwesomeClassname: require("../src/assets/icons/node.png")
         },
@@ -63,18 +67,14 @@ const skillsSection = {
             skillName: "Flask",
             fontAwesomeClassname: require("../src/assets/icons/flask.png")
         },
-        {
-            skillName: "Firebase",
-            fontAwesomeClassname: require("../src/assets/icons/firebase.png")
-        },
+        // {
+        //     skillName: "Firebase",
+        //     fontAwesomeClassname: require("../src/assets/icons/firebase.png")
+        // },
         {
             skillName: "Android",
             fontAwesomeClassname: require("../src/assets/icons/android.png")
         },
-        // {
-        //     skillName: "Redux",
-        //     fontAwesomeClassname: require("../src/assets/icons/redux.png")
-        // },
         // {
         //     skillName: "Redis",
         //     fontAwesomeClassname: require("../src/assets/icons/redis.png")
