@@ -131,7 +131,7 @@ const workExperiences = {
             role: "Software Engineer",
             company: "Tech Hive Ltd.",
             companylogo: require("./assets/images/eduhive.png"),
-            date: "April 2019 – July 2020",
+            date: "April 2019 – August 2020",
             desc: `Worked as a Full-stack (web & android) developer on "EduHive" and "TextHive" project. EduHive is a product of Tech Hive Ltd, which is one of the leading e-learning platform in Bangladesh. TextHive is a Bulk SMS service`,
             descBullets: [
                 "Reactjs for front-end web development",
