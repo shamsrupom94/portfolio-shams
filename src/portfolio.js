@@ -138,6 +138,17 @@ const workExperiences = {
                 "Nodejs, MongoDB and Expressjs for back-end development",
                 "React Native for android app development"
             ]
+        },
+        {
+            role: "Software Associate, Engineering",
+            company: "SSLWireless Ltd.",
+            companylogo: require("./assets/images/ssl.png"),
+            date: "September 2020 – Present",
+            desc: `Working as Software Associate for Engineering Department. Working as a Javascript and Reactjs front-end developer.`,
+            descBullets: [
+                "Reactjs for front-end web development",
+                "SEO friendly websites with NEXT.js"
+            ]
         }
     ]
 };
