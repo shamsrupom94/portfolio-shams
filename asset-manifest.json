@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-shams/static/css/main.4057aee4.chunk.css",
-    "main.js": "/portfolio-shams/static/js/main.a31ce488.chunk.js",
-    "main.js.map": "/portfolio-shams/static/js/main.a31ce488.chunk.js.map",
-    "runtime-main.js": "/portfolio-shams/static/js/runtime-main.2ee9d49f.js",
-    "runtime-main.js.map": "/portfolio-shams/static/js/runtime-main.2ee9d49f.js.map",
-    "static/js/2.2a329b05.chunk.js": "/portfolio-shams/static/js/2.2a329b05.chunk.js",
-    "static/js/2.2a329b05.chunk.js.map": "/portfolio-shams/static/js/2.2a329b05.chunk.js.map",
+    "main.css": "/portfolio-shams/static/css/main.9c9a97f3.chunk.css",
+    "main.js": "/portfolio-shams/static/js/main.81089a84.chunk.js",
+    "main.js.map": "/portfolio-shams/static/js/main.81089a84.chunk.js.map",
+    "runtime-main.js": "/portfolio-shams/static/js/runtime-main.836bf386.js",
+    "runtime-main.js.map": "/portfolio-shams/static/js/runtime-main.836bf386.js.map",
+    "static/js/2.ce8b2106.chunk.js": "/portfolio-shams/static/js/2.ce8b2106.chunk.js",
+    "static/js/2.ce8b2106.chunk.js.map": "/portfolio-shams/static/js/2.ce8b2106.chunk.js.map",
     "index.html": "/portfolio-shams/index.html",
-    "precache-manifest.5ea3eed49757a319d2e6791e212470c2.js": "/portfolio-shams/precache-manifest.5ea3eed49757a319d2e6791e212470c2.js",
+    "precache-manifest.48b5315c5e4a868707c08b79a0d537da.js": "/portfolio-shams/precache-manifest.48b5315c5e4a868707c08b79a0d537da.js",
     "service-worker.js": "/portfolio-shams/service-worker.js",
-    "static/css/main.4057aee4.chunk.css.map": "/portfolio-shams/static/css/main.4057aee4.chunk.css.map",
+    "static/css/main.9c9a97f3.chunk.css.map": "/portfolio-shams/static/css/main.9c9a97f3.chunk.css.map",
+    "static/js/2.ce8b2106.chunk.js.LICENSE.txt": "/portfolio-shams/static/js/2.ce8b2106.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio-shams/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/binate.png": "/portfolio-shams/static/media/binate.9b34735c.png",
     "static/media/contactMail.png": "/portfolio-shams/static/media/contactMail.347cb388.png",
@@ -23,13 +24,14 @@
     "static/media/python.png": "/portfolio-shams/static/media/python.2c04a4f7.png",
     "static/media/redux.png": "/portfolio-shams/static/media/redux.8251fe76.png",
     "static/media/scholars.png": "/portfolio-shams/static/media/scholars.5e20eb5b.png",
+    "static/media/ssl.png": "/portfolio-shams/static/media/ssl.ec1bf185.png",
     "static/media/TalkCard.css": "/portfolio-shams/static/media/talksCardBack.0288c5ec.svg",
     "static/media/texthive.png": "/portfolio-shams/static/media/texthive.c206ef65.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2ee9d49f.js",
-    "static/js/2.2a329b05.chunk.js",
-    "static/css/main.4057aee4.chunk.css",
-    "static/js/main.a31ce488.chunk.js"
+    "static/js/runtime-main.836bf386.js",
+    "static/js/2.ce8b2106.chunk.js",
+    "static/css/main.9c9a97f3.chunk.css",
+    "static/js/main.81089a84.chunk.js"
   ]
 }
