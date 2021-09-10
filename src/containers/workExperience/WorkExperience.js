@@ -12,7 +12,7 @@ export default function WorkExperience() {
                 <Fade bottom duration={1000} distance="20px">
                 <div className="experience-container" id="workExperience">
                     <div>
-                        <h2 className="experience-heading">Experiences</h2>
+                        <h2 className="experience-heading">Experience</h2>
                         <div className="experience-cards-div">
                         {workExperiences.experience.map((card) => {
                             return (
