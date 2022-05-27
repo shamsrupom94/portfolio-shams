@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/portfolio-shams/static/css/main.48dabe09.chunk.css",
+    "main.js": "/portfolio-shams/static/js/main.bedfcce8.chunk.js",
+    "main.js.map": "/portfolio-shams/static/js/main.bedfcce8.chunk.js.map",
+    "runtime-main.js": "/portfolio-shams/static/js/runtime-main.836bf386.js",
+    "runtime-main.js.map": "/portfolio-shams/static/js/runtime-main.836bf386.js.map",
+    "static/js/2.09a3a7f2.chunk.js": "/portfolio-shams/static/js/2.09a3a7f2.chunk.js",
+    "static/js/2.09a3a7f2.chunk.js.map": "/portfolio-shams/static/js/2.09a3a7f2.chunk.js.map",
+    "index.html": "/portfolio-shams/index.html",
+    "precache-manifest.8908104a685825ae21f09a0671bb9a6a.js": "/portfolio-shams/precache-manifest.8908104a685825ae21f09a0671bb9a6a.js",
+    "service-worker.js": "/portfolio-shams/service-worker.js",
+    "static/css/main.48dabe09.chunk.css.map": "/portfolio-shams/static/css/main.48dabe09.chunk.css.map",
+    "static/js/2.09a3a7f2.chunk.js.LICENSE.txt": "/portfolio-shams/static/js/2.09a3a7f2.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/portfolio-shams/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/aiub.png": "/portfolio-shams/static/media/aiub.1365ae83.png",
+    "static/media/binate.png": "/portfolio-shams/static/media/binate.9b34735c.png",
+    "static/media/contactMail.png": "/portfolio-shams/static/media/contactMail.347cb388.png",
+    "static/media/eduhive.png": "/portfolio-shams/static/media/eduhive.3c769c9a.png",
+    "static/media/eduhiveapp.png": "/portfolio-shams/static/media/eduhiveapp.2e7857cf.png",
+    "static/media/firebase.png": "/portfolio-shams/static/media/firebase.1da029b3.png",
+    "static/media/ill_a.svg": "/portfolio-shams/static/media/ill_a.18837140.svg",
+    "static/media/logo.svg": "/portfolio-shams/static/media/logo.25bf045c.svg",
+    "static/media/pt.png": "/portfolio-shams/static/media/pt.682b59a5.png",
+    "static/media/python.png": "/portfolio-shams/static/media/python.2c04a4f7.png",
+    "static/media/redux.png": "/portfolio-shams/static/media/redux.8251fe76.png",
+    "static/media/scholars.png": "/portfolio-shams/static/media/scholars.5e20eb5b.png",
+    "static/media/self.jpg": "/portfolio-shams/static/media/self.c0a9409b.jpg",
+    "static/media/ssl.png": "/portfolio-shams/static/media/ssl.ec1bf185.png",
+    "static/media/TalkCard.css": "/portfolio-shams/static/media/talksCardBack.de3da806.svg",
+    "static/media/texthive.png": "/portfolio-shams/static/media/texthive.c206ef65.png",
+    "static/media/ts.png": "/portfolio-shams/static/media/ts.5415b1a3.png",
+    "static/media/uds.png": "/portfolio-shams/static/media/uds.912cbb9e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.836bf386.js",
+    "static/js/2.09a3a7f2.chunk.js",
+    "static/css/main.48dabe09.chunk.css",
+    "static/js/main.bedfcce8.chunk.js"
+  ]
+}
