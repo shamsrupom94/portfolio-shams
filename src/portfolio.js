@@ -8,7 +8,7 @@ const greeting = {
     /* Your Summary And Greeting Section */
     username: "Shams's Portfolio",
     title: "Hi, I'm Shams-Ibne-Noor",
-    subTitle: emoji("A Full-stack Software Developer having an experience of building Web & Mobile applications with Reactjs / React Native / Nodejs / Python and some other cool languages and frameworks."),
+    subTitle: emoji("A Data Science master's student and a former Full-stack Software Developer with several years of experience in building Web & Mobile applications with Reactjs / React Native / Nodejs / Next.js / GraphQL and some other cool languages and frameworks."),
     resumeLink: "https://drive.google.com/file/d/12PBBaRx7EKfm8BJS2xbn6wE1bEzD8-a_/view?usp=sharing"
 };
 
@@ -20,70 +20,83 @@ const socialMediaLinks = {
     linkedin: "https://www.linkedin.com/in/shams-ibne-noor-05aa9015a/",
     gmail: "shams.rupom@gmail.com",
     facebook: "https://www.facebook.com/shams.rupom"
-    // Instagram and Twitter are also supported in the links!
 };
 
 // Your Skills Section
 
 const skillsSection = {
-    title: "My Skills",
-    subTitle: "A Computer Science graduate working as a full-stack developer with a passion for learning about new and exciting technologies",
-    skills: [
-        emoji("⚡ Specialist in MERN stack application for both web and android platform"),
-        emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-        emoji("⚡ Integration of third party services such as Firebase/ Vimeo / GoogleAPIs etc. "),
-        emoji("⚡ Excellent communication skills and business problem solving skills ")
-    ],
+  title: "My Skills",
+  subTitle:
+    "A Data Science master's student, a CS graduate and a former Software Developer with a passion for learning about new and exciting technologies",
+  skills: [
+    emoji("⚡ Specialist in building MERN stack Web Aplication"),
+    emoji(
+      "⚡ Experienced in building highly interactive UI and back-end system"
+    ),
+    emoji(
+      "⚡ Experienced in using Data Analysis tools and Machine Learning Algorithms"
+    ),
+    emoji("⚡ Machine Learning & Deep Learning Enthusiast"),
+    emoji("⚡ Strong communication skills and problem solving skills"),
+  ],
 
-    /* Make Sure You include correct Font Awesome Classname to view your icon
+  /* Make Sure You include correct Font Awesome Classname to view your icon
     https://fontawesome.com/icons?d=gallery */
 
-    softwareSkills: [
-        {
-            skillName: "ReactJs / Native",
-            fontAwesomeClassname: require("../src/assets/icons/react.png")
-        },
-        {
-            skillName: "Redux",
-            fontAwesomeClassname: require("../src/assets/icons/redux.png")
-        },
-        {
-            skillName: "nodejs",
-            fontAwesomeClassname: require("../src/assets/icons/node.png")
-        },
-        {
-            skillName: "MongoDB",
-            fontAwesomeClassname: require("../src/assets/icons/mongo.png")
-        },
-        {
-            skillName: "JavaScript",
-            fontAwesomeClassname: require("../src/assets/icons/js.png")
-        },
-        {
-            skillName: "Python",
-            fontAwesomeClassname: require("../src/assets/icons/python.png")
-        },
-        {
-            skillName: "Flask",
-            fontAwesomeClassname: require("../src/assets/icons/flask.png")
-        },
-        // {
-        //     skillName: "Firebase",
-        //     fontAwesomeClassname: require("../src/assets/icons/firebase.png")
-        // },
-        {
-            skillName: "Android",
-            fontAwesomeClassname: require("../src/assets/icons/android.png")
-        },
-        // {
-        //     skillName: "Redis",
-        //     fontAwesomeClassname: require("../src/assets/icons/redis.png")
-        // },
-        // {
-        //     skillName: "Postman",
-        //     fontAwesomeClassname: require("../src/assets/icons/postman.png")
-        // },
-    ]
+  softwareSkills: [
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: require("../src/assets/icons/js.png"),
+    },
+    {
+      skillName: "ReactJs / Native",
+      fontAwesomeClassname: require("../src/assets/icons/react.png"),
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: require("../src/assets/icons/node.png"),
+    },
+    {
+      skillName: "Nextjs",
+      fontAwesomeClassname: require("../src/assets/icons/next.png"),
+    },
+    {
+      skillName: "Python",
+      fontAwesomeClassname: require("../src/assets/icons/python.png"),
+    },
+    {
+      skillName: "NumPy",
+      fontAwesomeClassname: require("../src/assets/icons/np.png"),
+    },
+    {
+      skillName: "TensorFlow",
+      fontAwesomeClassname: require("../src/assets/icons/tf.png"),
+    },
+    {
+      skillName: "PyTorch",
+      fontAwesomeClassname: require("../src/assets/icons/pt.png"),
+    },
+    {
+        skillName: "MongoDB",
+        fontAwesomeClassname: require("../src/assets/icons/mongo.png")
+    },
+    {
+        skillName: "Redux",
+        fontAwesomeClassname: require("../src/assets/icons/redux.png")
+    },
+    {
+        skillName: "Firesbase",
+        fontAwesomeClassname: require("../src/assets/icons/firebase.png")
+    },
+    {
+        skillName: "GraphQL",
+        fontAwesomeClassname: require("../src/assets/icons/gql.png")
+    },
+    {
+        skillName: "Typescript",
+        fontAwesomeClassname: require("../src/assets/icons/ts.png")
+    },
+  ],
 };
 
 // Your top 3 proficient stacks/tech experience
@@ -92,24 +105,45 @@ const techStack = {
     viewSkillBars: true, //Set it to true to show Proficiency Section
     experience: [
         {
-            Stack: "ReactJs & Native",  //Insert stack or technology you have experience in
-            progressPercentage: "80%"  //Insert relative proficiency in percentage
+            Stack: "ReactJs & Native",  
+            progressPercentage: "80%"  
         },
         {
             Stack: "Nodejs",
             progressPercentage: "75%"
         },
         {
-            Stack: "Python / Flask",
-            progressPercentage: "72%"
+            Stack: "Python",
+            progressPercentage: "70%"
         },
         {
             Stack: "Programming",
-            progressPercentage: "65%"
+            progressPercentage: "75%"
         }
     ]
 };
 
+// Write down education history 3 at most
+
+const educationHistory = {
+  viewEducations: true, //Set it to true to show workExperiences Section
+  educationInstitutions: [
+    {
+      institution: "American International University Bangladesh",
+      degreeType: "BSc. in Computer Science and Engineering",
+      institutionLogo: require("./assets/images/aiub.png"),
+      date: "January 2015 – December 2018",
+      desc: "Completed a 4 years bachelors degree in CSE with a CGPA of 3.65 out of 4 (German Scale: 1.3).Was nominated for university's best undergraduate thesis award.",
+    },
+    {
+      institution: "Universität des Saarlandes",
+      degreeType: "MSc. in Data Science and Artificial Intelligence",
+      institutionLogo: require("./assets/images/uds.png"),
+      date: "April 2021 – Present",
+      desc: "Currently doing my masters in Data Science and AI. Area of interest : DeepLearning, Neural Network.",
+    },
+  ],
+};
 
 // Your top 3 work experiences
 
@@ -143,11 +177,12 @@ const workExperiences = {
             role: "Software Associate, Engineering",
             company: "SSLWireless Ltd.",
             companylogo: require("./assets/images/ssl.png"),
-            date: "September 2020 – Present",
-            desc: `Working as Software Associate for Engineering Department. Working as a Javascript and Reactjs front-end developer.`,
+            date: "September 2020 – April 2021",
+            desc: `Worked as Software Associate for Engineering Department. Worked as a Javascript, Reactjs & Nextjs developer.`,
             descBullets: [
                 "Reactjs for front-end web development",
-                "SEO friendly websites with NEXT.js"
+                "Serverside Rendering with NEXT.js",
+                "E-commerece website back-end building with GraphQL"
             ]
         }
     ]
@@ -184,7 +219,7 @@ const bigProjects = {
         },
         {
             image: require("../src/assets/icons/texthive.png"),
-            link: "https://topup.co/"
+            link: "https://texthive.com.bd/"
         }
     ]
 };
@@ -291,8 +326,8 @@ const podcastSection = {
 //Completed by minhajul
 const contactInfo = {
     title: emoji("Contact Me"),
-    subtitle: "Want to say hi? My Inbox is open for all.",
-    number: "+8801941083577",
+    subtitle: "I'm always available :)",
+    number: "+4917643275090",
     email_address: "shams.rupom@gmail.com"
 };
 
@@ -308,6 +343,7 @@ export {
     socialMediaLinks,
     skillsSection,
     techStack,
+    educationHistory,
     workExperiences,
     openSource,
     bigProjects,
