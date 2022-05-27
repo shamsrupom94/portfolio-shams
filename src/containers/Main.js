@@ -16,6 +16,7 @@ import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import Profile from "./profile/Profile";
 import Login from "./login/Login";
+import Education from "./education/Education";
 
 export default class Main extends Component {
   render() {
@@ -25,6 +26,7 @@ export default class Main extends Component {
         <Greeting />
         <Skills />
         <StackProgress />
+        <Education/>
         <WorkExperience />
         {/* <Projects /> */}
         <StartupProject />
